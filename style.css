@@ -1,0 +1,371 @@
+*
+{   padding:0;
+	list-style:none;
+	box-sizing:border-box;
+}
+header nav a
+{
+  color:white;
+}
+
+body
+{
+background: rgb(229, 228, 226);
+  animation: move 5s infinite;
+}
+.homeHead
+{
+  margin:5%;
+  padding:2.5%;
+  background:#696969;
+}
+
+@keyframes move
+{
+ from {background-color:rgb(129, 133, 137);}
+  to {background-color:rgb(229, 228, 226);}
+}
+header
+{
+	background:#404040;
+}
+
+.headcontent
+{
+	color:white;
+	height:60vh;
+	width:50%;
+	padding:2%;
+   background-image: linear-gradient(to right, rgb(192,192,192), rgb(220,220,220));
+}
+.headimage
+{   
+	top:100px;
+	background-image: url(images/beats-view-image.jpg);
+	height:90vh;
+	width:60%;
+	z-index:50;
+	box-shadow:2px 2px 5px rgba(0,0,0,0.3); 
+}
+.footer
+{
+	position:fixed;
+	bottom:0;
+}
+
+.heading-cards
+{
+	background-color:#eeebdd;
+	position:relative;
+	padding:2%;
+	margin:auto;
+	justify-content: space-around;
+}
+.teamintro
+{
+	position:relative;
+	padding:3.5%;
+	background-color:#262626;
+	color:white;
+	box-shadow:2px 2px 5px rgba(0,0,0,0.3);
+}
+.indivual-intro
+{
+  padding:2.5%;
+  background-color:#739383;
+  text-align:center;
+  color:black;
+}
+.indivual-intro-middle
+{
+	padding:2.5%;
+  background-color:#BFBFBF;
+  text-align:center;
+  color:black;
+}
+
+.heading-cards
+{
+ text-align:center;
+ padding:1.5%;
+}
+.indivual-intro-end img
+{
+	height:300px;
+	width:auto;
+	}
+.indivual-intro img 
+{
+	height:150px;
+	width:150px;
+	border-radius:100%;
+}
+.indivual-intro-middle img
+{
+	height:150px;
+	width:150px;
+	border-radius:100%;
+}
+.reviewTest
+{
+  text-align: center;padding:1.5%;margin-bottom:2%;background-color:black;color:red;
+}
+.reviewheader
+{
+  background-color:#739383;
+  color:black;
+}
+footer
+{
+	position:relative;
+}
+.contact-details
+{
+	position:absolute;
+	text-align:center;
+	width:100%;
+	bottom:0px;
+	
+}
+.container {
+  max-width: 960px;
+}
+
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden 
+{
+ overflow: hidden; }
+
+.testimonials
+{
+  padding:2.5;
+  background:rgb(229, 228, 226);
+  animation: move 5s infinite;
+}
+.user-img-div
+{
+  padding:1.5%;
+}
+.user-img
+{
+  height:150px;
+  width:150px;
+}
+.reviews_users
+{
+  height:auto;
+  padding:2.5%;
+  margin:2%
+}
+.imagetestimonial{
+
+
+margin:4% 5% 4% 0;
+  width:10%;
+  border-radius: 100%;
+}
+h2{
+  font-weight:bold;
+  font-size:2.5rem;
+  line-height:3.5rem;
+}
+#testimonials{
+
+  background-color:rgb(129, 133, 137);
+  text-align: center;
+   font-family: 'Oswald', sans-serif;
+}
+.testimonial-text{margin:10% 20% 0 ;
+  font-size:2rem;
+  color:#fff;
+  line-height:3.5rem;
+}
+
+
+#product-welcome
+{
+  font-weight:bold;
+  
+  text-align:center;
+}
+
+#welcome  {
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.37)),url("images/hf-wel.jpg");
+}
+ #welcome .welcome-contents {
+  color: white;
+  margin: 0 10%;
+  font-size: 1.3em;
+  min-height: 70vh;
+  padding-top: 30vh;
+}
+@media (max-width: 600px) {
+   #welcome .welcome-contents {
+    font-size: 1.1em;
+    padding-top: 10vh;
+    min-height: 90vh;
+  }
+}
+ #welcome .welcome-contents h1 {
+  font-size: 3em;
+}
+#welcome .welcome-contents div {
+  font-size: 1.5em;
+}
+
+ #features {
+background: black;
+ 
+
+}
+
+ #features .features-title {
+  color: white;
+  font-size: 2em;
+  padding: 20px 0;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+}
+a
+{
+  color:white;
+  text-decoration: none;
+}
+a:hover
+{
+  color:yellow;
+}
+#features img
+{
+  height:165px;
+}
+#features .features-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 30px;
+  justify-content: center;
+}
+#features .features-container .features-title {
+  border: 2px solid;
+  margin: 20px;
+  border-radius: 5%;
+  box-shadow:2px 2px 5px rgba(0,0,0,0.9); 
+}
+ #features .features-container .features-title-image img {
+  width: 250px;
+  border-radius: 5%;
+}
+ #features .features-container .features-title-link {
+  text-align: center;
+  margin-bottom: 10px;
+}
+ #features .features-container .features-title-link a {
+  color: white;
+  font-weight:normal;
+  text-decoration: none;
+}
+#features .features-container .features-title-link a:hover
+{
+  color:yellow;
+}
+
+
+ #contact {
+  margin: 30px 0;
+  min-height: 30vh;
+
+}
+#contact a
+{
+  color:blue;
+}
+#contact .contact-header {
+  font-size: 2em;
+  padding: 20px 0;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+}
+ #contact .socialmedia {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+#contact .socialmedia a
+{
+cursor:pointer;
+}
+ #contact .socialmedia-link a i {
+  width: 50px;
+}
+#footer
+{
+  position:relative; margin-bottom:10%; padding:5%;margin:top:5%;z-index:100; text-align:center;
+}
